@@ -1,0 +1,109 @@
+/* Global Reset and Setup */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+}
+
+/* Utility Class for Content Centering */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /* Clear floats */
+}
+
+/* Header Styling */
+header {
+    background: #35424a; /* Dark blue/gray background */
+    color: #ffffff; /* White text */
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid; /* Orange border */
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+/* Navigation Styling */
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #e8491d; /* Change link color on hover */
+    font-weight: bold;
+}
+
+/* Main Content Sections */
+main {
+    padding: 20px 0;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Hero Section (The main welcome area) */
+#hero {
+    text-align: center;
+    background: #c9c9c9;
+    padding: 60px 20px;
+}
+
+#hero h2 {
+    margin-top: 0;
+    font-size: 2.5em;
+    color: #35424a;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    background: #e8491d;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease; /* Smooth hover transition */
+}
+
+.button:hover {
+    background: #35424a;
+}
+
+/* Footer Styling */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
